@@ -1,0 +1,47 @@
+.quote-box {
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.quote-text {
+    font-weight: 500;
+    font-size: 1.75em;
+    width: 450px;
+    height: auto;
+    clear: both;
+    text-align: center;
+    opacity: 1;
+    transition: opacity .2s ease;
+}
+
+.quote-author {
+    padding-top: 20px;
+    font-weight: 200;
+    font-size: 1em;
+    width: 450px;
+    height: auto;
+    clear: both;
+    text-align: right;
+}
+
+.btn-group {
+    padding-top: 20px;
+    width: 450px;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+  
+.btn-group > a {
+    background-color: var(--mainColor);
+    color: white;
+    padding: 8px 18px 6px 18px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: .8em;
+    border-radius: 3px;
+    transition: background-color 1s ease;
+}
